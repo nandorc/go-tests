@@ -20,6 +20,10 @@ This repo compiles some tests projects I use to find out how exactly GO works.
 > >
 > > Respond with the list of albums on memory.
 > 
+> > `GET /albums/:id`
+> >
+> > Retreives the corresponding album depending on the id sent as parameter or a 404 code if not found.
+> 
 > > `POST /albums`
 > >
 > > Add a new album based on a JSON body.
